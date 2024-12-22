@@ -7,3 +7,17 @@ yay -S --needed aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprp
 # Clipboard
 yay -S fuzzel cliphist wl-clipboard
 
+
+# Touch
+sudo pacman -S nwg-drawer iio-sensor-proxy glm
+yay -S iio-hyprland-git
+# Hyprgrass
+hyprpm update
+hyprpm add https://github.com/horriblename/hyprgrass
+hyprpm enable hyprgrass
+# Hyprspace
+hyprpm add https://github.com/KZDKM/Hyprspace
+hyprpm enable Hyprspace
+# Dynamic cursors
+hyprpm add https://github.com/virtcode/hypr-dynamic-cursors
+hyprpm enable dynamic-cursors
