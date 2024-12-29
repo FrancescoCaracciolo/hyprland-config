@@ -7,6 +7,11 @@ yay -S --needed aylurs-gtk-shell-git grimblast-git gpu-screen-recorder-git hyprp
 # Clipboard
 yay -S fuzzel cliphist wl-clipboard
 
+# OCR
+sudo pacman -S tesseract tesseract-data-it tesseract-data-eng slurp grim
+
+# Color picker
+sudo pacman -S hyprpicker
 
 # Touch
 sudo pacman -S nwg-drawer iio-sensor-proxy glm
