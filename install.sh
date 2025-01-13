@@ -10,8 +10,13 @@ yay -S fuzzel cliphist wl-clipboard
 # OCR
 sudo pacman -S tesseract tesseract-data-it tesseract-data-eng slurp grim
 
+# Screen record 
+sudo pacman -S wl-recorder
 # Color picker
 sudo pacman -S hyprpicker
+
+# AI Tools 
+sudo pacman -S kando
 
 # Touch
 sudo pacman -S nwg-drawer iio-sensor-proxy glm
